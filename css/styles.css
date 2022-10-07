@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-background: #222374;
+    --gray-light: #CCCCCC;
+}
+
+* {
+    font-family: 'Open Sasns', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    color: #FFF;
+    text-decoration: none;
+    
+}
+
+header {
+    background-color: var(--color-red);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    color: #FFF;
+    font-size: 18px;
+    margin: 0;
+}
+
+nav a {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+img {
+    width: 30px;
+    margin-left: 720px;
+    display: flex;
+}
+
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#meet {
+    padding: 20px 15px;
+    background-color: var(--color-background);
+}
+
+#meet2 {
+    padding: 20px 15px;
+    background-color: #FFF;
+}
+
+#meet3 {
+    padding: 20px 15px;
+    background-color: #000;
+}
+
+.personalization-text {
+    background-color: var(--gray-light);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 40px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.personalization-title {
+    color: #FFF;
+    font: 32px;
+}
+
+.personalization-text h3 {
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.personalization-text p {
+    color: #000;
+    font-size: 16px;
+}
+
+.personalization-medness {
+    color: var(--color-red);
+    font: 32px;
+}
+
+.personalization-text2 {
+    background-color: var(--color-background);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 40px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.personalization-text2 p {
+    color: #FFF;
+    font-size: 16px;
+}
+
+.personalization-text2 h3 {
+    color: #FFF;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.personalization-footer {
+    color: #FFF;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personalization-footer a {
+    margin-bottom: 20px;
+}
+
+.personalization-footer p {
+    font-style: italic;
+}
